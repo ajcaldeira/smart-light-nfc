@@ -1,7 +1,7 @@
 import tinytuya
 import time
 import os
-
+import env
 ## Get environ vars
 device_id = os.getenv('DEVICE_ID')
 device_ip = os.getenv('DEVICE_IP')
